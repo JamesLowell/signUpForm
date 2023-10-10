@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet'>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="title">
+        <h1 class="title-one">James Hub</h1>
+      </div>
+      <ul class="nav-bar">
+        <li>| Home</li>
+        <li>| About |</li>
+        <li>Services |</li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="img-container">
+      <h1 class="image-caption">1 Thessalonians 2:11-12 </h1>
+      <div class="image-span">
+        <p>"For you know that we dealt with each of you as a father deals with his own children,<br> encouraging,
+          comforting and urging you to live lives worthy of God, who calls you into his kingdom and glory."</p>
+      </div>
+      <div class="image">
+        <img src="peeping.png" alt="">
+      </div>
+    </div>
+    <div class="user-details">
+      <h1 class="title">Sign Up</h1>
+      <form class="survey-form" action="">
+        <!-- Name label && input field -->
+        <input type="text" id="name" name="name" placeholder="" required="">
+        <label1 for="name" id="name-label">Full name</label1>
+        <br>
+
+        <!-- Email label && input field with validation -->
+        <input type="email" id="email" name="email" placeholder="" required="">
+        <label2 for="email" id="email-label">Email Address</label2>
+        <br>
+        <!-- Number label && input field with validation -->
+        <input type="number" id="number" name="number" placeholder="" required="" min="09000000000" max="999999999999">
+        <label3 for="number" id="number-label">Mobile Number</label3>
+
+        <br>
+
+        <!-- Dropdown selection -->
+        <div class="dropdown-container">
+          <div>
+            <label for="dropdown">Birthday</label>
+          </div>
+          <div class="birthday-container">
+            <select id="birth-month" name="birth-month" style="background-color: white;">
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option value="">April</option>
+              <option value="">May</option>
+              <option value="">June</option>
+              <option value="">July</option>
+              <option value="">August</option>
+              <option value="">September</option>
+              <option value="">October</option>
+              <option value="">November</option>
+              <option value="">December</option>
+            </select>
+            <select id="birth-day" name="birth-day" style="background-color: white;">
+              <option value="">1</option>
+              <option value="">2</option>
+              <option value="">3</option>
+              <option value="">4</option>
+              <option value="">5</option>
+              <option value="">6</option>
+              <option value="">7</option>
+              <option value="">8</option>
+              <option value="">9</option>
+              <option value="">10</option>
+              <option value="">11</option>
+              <option value="">12</option>
+              <option value="">13</option>
+              <option value="">14</option>
+              <option value="">15</option>
+              <option value="">16</option>
+              <option value="">17</option>
+              <option value="">18</option>
+              <option value="">19</option>
+              <option value="">20</option>
+              <option value="">21</option>
+              <option value="">22</option>
+              <option value="">23</option>
+              <option value="">24</option>
+              <option value="">25</option>
+              <option value="">26</option>
+              <option value="">27</option>
+              <option value="">28</option>
+              <option value="">29</option>
+              <option value="">30</option>
+              <option value="">31</option>
+            </select>
+            <input type="number" id="birth-year" name="age" placeholder="Year" required="" min="1990" max="2023">
+          </div>
+        </div>
+        <fieldset>
+          <div class="gender-container" style="font-size:12px; padding-top:22px; padding-left: 0;padding-bottom: 10px;">
+            <label for="gender" class="gender-label">Gender</label>
+
+            <input type="radio" name="radio" for="radio" value="option1">Male
+
+
+            <input type="radio" name="radio" for="radio" value="option2">Female
+
+
+            <input type="radio" name="radio" for="radio" value="option3">Others
+
+          </div>
+        </fieldset>
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
